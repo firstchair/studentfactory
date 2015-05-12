@@ -1,0 +1,57 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "Pages",
+      "export": true
+    },
+    {
+      "name": "translations"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "telescope-base"
+    },
+    {
+      "package": "aldeed:simple-schema"
+    },
+    {
+      "package": "aldeed:autoform"
+    },
+    {
+      "package": "tap:i18n"
+    },
+    {
+      "package": "fourseven:scss"
+    },
+    {
+      "package": "iron:router"
+    },
+    {
+      "package": "templating"
+    },
+    {
+      "package": "telescope-messages"
+    },
+    {
+      "package": "matb33:collection-hooks"
+    },
+    {
+      "package": "chuangbo:marked"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/telescope-pages.js",
+      "length": 11115,
+      "offset": 0,
+      "servePath": "/packages/telescope-pages.js",
+      "sourceMap": "os/packages/telescope-pages.js.map"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "Settings",
+      "export": true
+    },
+    {
+      "name": "debug"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "mongo"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "aldeed:simple-schema"
+    },
+    {
+      "package": "telescope-base"
+    },
+    {
+      "package": "telescope-lib"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/telescope-settings.js",
+      "length": 64123,
+      "offset": 0,
+      "servePath": "/packages/telescope-settings.js",
+      "sourceMap": "os/packages/telescope-settings.js.map"
+    }
+  ]
+}

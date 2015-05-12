@@ -1,0 +1,55 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "__"
+    },
+    {
+      "name": "getEmbedlyData"
+    },
+    {
+      "name": "translations"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "telescope-lib"
+    },
+    {
+      "package": "telescope-base"
+    },
+    {
+      "package": "telescope-settings"
+    },
+    {
+      "package": "aldeed:autoform"
+    },
+    {
+      "package": "tap:i18n"
+    },
+    {
+      "package": "fourseven:scss"
+    },
+    {
+      "package": "templating",
+      "constraint": "1.0.4"
+    },
+    {
+      "package": "http",
+      "constraint": "1.0.2"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/telescope-embedly.js",
+      "length": 32434,
+      "offset": 0,
+      "servePath": "/packages/telescope-embedly.js",
+      "sourceMap": "os/packages/telescope-embedly.js.map"
+    }
+  ]
+}

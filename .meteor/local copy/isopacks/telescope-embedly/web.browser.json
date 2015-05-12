@@ -1,0 +1,71 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "__"
+    },
+    {
+      "name": "registerI18nTemplate"
+    },
+    {
+      "name": "registerTemplate"
+    },
+    {
+      "name": "non_package_templates"
+    },
+    {
+      "name": "translations"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "telescope-lib"
+    },
+    {
+      "package": "telescope-base"
+    },
+    {
+      "package": "telescope-settings"
+    },
+    {
+      "package": "aldeed:autoform"
+    },
+    {
+      "package": "tap:i18n"
+    },
+    {
+      "package": "fourseven:scss"
+    },
+    {
+      "package": "templating",
+      "constraint": "1.0.4"
+    },
+    {
+      "package": "http",
+      "constraint": "1.0.2"
+    },
+    {
+      "package": "telescope-messages"
+    }
+  ],
+  "resources": [
+    {
+      "type": "css",
+      "file": "web.browser/packages/telescope-embedly/lib/client/post_thumbnail.scss.css",
+      "length": 14000,
+      "offset": 0,
+      "servePath": "/packages/telescope-embedly/lib/client/post_thumbnail.scss.css"
+    },
+    {
+      "type": "prelink",
+      "file": "web.browser/packages/telescope-embedly.js",
+      "length": 52533,
+      "offset": 0,
+      "servePath": "/packages/telescope-embedly.js",
+      "sourceMap": "web.browser/packages/telescope-embedly.js.map"
+    }
+  ]
+}

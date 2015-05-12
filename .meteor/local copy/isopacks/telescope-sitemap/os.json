@@ -1,0 +1,38 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "templating"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "iron:router"
+    },
+    {
+      "package": "telescope-lib"
+    },
+    {
+      "package": "telescope-base"
+    },
+    {
+      "package": "gadicohen:sitemaps",
+      "constraint": "0.0.20"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/telescope-sitemap.js",
+      "length": 7074,
+      "offset": 0,
+      "servePath": "/packages/telescope-sitemap.js",
+      "sourceMap": "os/packages/telescope-sitemap.js.map"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "builtBy": "meteor/16",
+  "unibuildDependencies": {
+    "os.json": {
+      "files": {
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-messages/package.js": "fed5f193ee4cdfa6abd865ccfb7f97db6519cfe8"
+      },
+      "directories": []
+    },
+    "web.browser.json": {
+      "files": {
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-messages/package.js": "fed5f193ee4cdfa6abd865ccfb7f97db6519cfe8",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-base/package.js": "97aed0ac4083d731f2f5ff7379ce6ceac44f85b5",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-messages/lib/client/messages.js": "19c9caf5c3da9813a24ebf65911af31079e1d114",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-messages/lib/client/templates/messages.html": "1d944c771a81ab003979a10356ebe40f7fd34efe",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-messages/lib/client/templates/messages.js": "f1b48795b05d5bb4623857c4e36bbb7bd7803d0c",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-messages/lib/client/templates/message_item.html": "6b55320a79020211362f2c714ccb7fb2cbba9dc3",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-messages/lib/client/templates/message_item.js": "14c1a37c8e9d46d4abad7163a6f255b9fe45afe4"
+      },
+      "directories": []
+    },
+    "web.cordova.json": {
+      "files": {
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-messages/package.js": "fed5f193ee4cdfa6abd865ccfb7f97db6519cfe8",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-base/package.js": "97aed0ac4083d731f2f5ff7379ce6ceac44f85b5",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-messages/lib/client/messages.js": "19c9caf5c3da9813a24ebf65911af31079e1d114",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-messages/lib/client/templates/messages.html": "1d944c771a81ab003979a10356ebe40f7fd34efe",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-messages/lib/client/templates/messages.js": "f1b48795b05d5bb4623857c4e36bbb7bd7803d0c",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-messages/lib/client/templates/message_item.html": "6b55320a79020211362f2c714ccb7fb2cbba9dc3",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-messages/lib/client/templates/message_item.js": "14c1a37c8e9d46d4abad7163a6f255b9fe45afe4"
+      },
+      "directories": []
+    }
+  },
+  "pluginDependencies": {
+    "files": {
+      "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-messages/package.js": "fed5f193ee4cdfa6abd865ccfb7f97db6519cfe8"
+    },
+    "directories": []
+  },
+  "pluginProviderPackageMap": {
+    "telescope-messages": {
+      "kind": "local",
+      "sourceRoot": "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-messages"
+    },
+    "meteor": {
+      "kind": "versioned",
+      "version": "1.1.6"
+    },
+    "minimongo": {
+      "kind": "versioned",
+      "version": "1.0.8"
+    },
+    "templating": {
+      "kind": "versioned",
+      "version": "1.1.1"
+    },
+    "telescope-base": {
+      "kind": "local",
+      "sourceRoot": "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-base"
+    },
+    "aldeed:simple-schema": {
+      "kind": "versioned",
+      "version": "1.3.2"
+    }
+  },
+  "includeCordovaUnibuild": true
+}

@@ -1,0 +1,134 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "Releases",
+      "export": true
+    },
+    {
+      "name": "__"
+    },
+    {
+      "name": "importRelease"
+    },
+    {
+      "name": "release"
+    },
+    {
+      "name": "translations"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "tap:i18n"
+    },
+    {
+      "package": "iron:router"
+    },
+    {
+      "package": "telescope-base"
+    },
+    {
+      "package": "telescope-lib"
+    },
+    {
+      "package": "telescope-i18n"
+    },
+    {
+      "package": "fourseven:scss"
+    }
+  ],
+  "resources": [
+    {
+      "type": "asset",
+      "file": "os/packages/telescope-releases/releases/0.11.0.md",
+      "length": 836,
+      "offset": 0,
+      "servePath": "/packages/telescope-releases/releases/0.11.0.md",
+      "path": "releases/0.11.0.md"
+    },
+    {
+      "type": "asset",
+      "file": "os/packages/telescope-releases/releases/0.11.1.md",
+      "length": 415,
+      "offset": 0,
+      "servePath": "/packages/telescope-releases/releases/0.11.1.md",
+      "path": "releases/0.11.1.md"
+    },
+    {
+      "type": "asset",
+      "file": "os/packages/telescope-releases/releases/0.12.0.md",
+      "length": 715,
+      "offset": 0,
+      "servePath": "/packages/telescope-releases/releases/0.12.0.md",
+      "path": "releases/0.12.0.md"
+    },
+    {
+      "type": "asset",
+      "file": "os/packages/telescope-releases/releases/0.13.0.md",
+      "length": 668,
+      "offset": 0,
+      "servePath": "/packages/telescope-releases/releases/0.13.0.md",
+      "path": "releases/0.13.0.md"
+    },
+    {
+      "type": "asset",
+      "file": "os/packages/telescope-releases/releases/0.14.0.md",
+      "length": 704,
+      "offset": 0,
+      "servePath": "/packages/telescope-releases/releases/0.14.0.md",
+      "path": "releases/0.14.0.md"
+    },
+    {
+      "type": "asset",
+      "file": "os/packages/telescope-releases/releases/0.14.1.md",
+      "length": 572,
+      "offset": 0,
+      "servePath": "/packages/telescope-releases/releases/0.14.1.md",
+      "path": "releases/0.14.1.md"
+    },
+    {
+      "type": "asset",
+      "file": "os/packages/telescope-releases/releases/0.14.2.md",
+      "length": 440,
+      "offset": 0,
+      "servePath": "/packages/telescope-releases/releases/0.14.2.md",
+      "path": "releases/0.14.2.md"
+    },
+    {
+      "type": "asset",
+      "file": "os/packages/telescope-releases/releases/0.14.3.md",
+      "length": 460,
+      "offset": 0,
+      "servePath": "/packages/telescope-releases/releases/0.14.3.md",
+      "path": "releases/0.14.3.md"
+    },
+    {
+      "type": "asset",
+      "file": "os/packages/telescope-releases/releases/0.15.0.md",
+      "length": 1469,
+      "offset": 0,
+      "servePath": "/packages/telescope-releases/releases/0.15.0.md",
+      "path": "releases/0.15.0.md"
+    },
+    {
+      "type": "asset",
+      "file": "os/packages/telescope-releases/releases/0.15.1.md",
+      "length": 235,
+      "offset": 0,
+      "servePath": "/packages/telescope-releases/releases/0.15.1.md",
+      "path": "releases/0.15.1.md"
+    },
+    {
+      "type": "prelink",
+      "file": "os/packages/telescope-releases.js",
+      "length": 14063,
+      "offset": 0,
+      "servePath": "/packages/telescope-releases.js",
+      "sourceMap": "os/packages/telescope-releases.js.map"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+<template name="mobile_nav">
+  <div class="mobile-nav">
+    <div class="mobile-nav-inner">
+      <ul class="mobile-menu">
+        {{#each mobileNav}}
+          <li>
+            {{> Template.dynamic template=getTemplate data=mobileContext}}
+          </li>
+        {{/each}}
+      </ul>
+    </div>
+  </div>
+</template>

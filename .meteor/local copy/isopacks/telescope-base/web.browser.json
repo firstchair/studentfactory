@@ -1,0 +1,326 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "postStatuses",
+      "export": true
+    },
+    {
+      "name": "STATUS_PENDING",
+      "export": true
+    },
+    {
+      "name": "STATUS_APPROVED",
+      "export": true
+    },
+    {
+      "name": "STATUS_REJECTED",
+      "export": true
+    },
+    {
+      "name": "adminMenu",
+      "export": true
+    },
+    {
+      "name": "viewsMenu",
+      "export": true
+    },
+    {
+      "name": "userMenu",
+      "export": true
+    },
+    {
+      "name": "addToPostSchema",
+      "export": true
+    },
+    {
+      "name": "addToCommentsSchema",
+      "export": true
+    },
+    {
+      "name": "addToSettingsSchema",
+      "export": true
+    },
+    {
+      "name": "addToUserSchema",
+      "export": true
+    },
+    {
+      "name": "registerPostProperty",
+      "export": true
+    },
+    {
+      "name": "registerCommentProperty",
+      "export": true
+    },
+    {
+      "name": "registerSetting",
+      "export": true
+    },
+    {
+      "name": "registerUserProperty",
+      "export": true
+    },
+    {
+      "name": "preloadSubscriptions",
+      "export": true
+    },
+    {
+      "name": "primaryNav",
+      "export": true
+    },
+    {
+      "name": "secondaryNav",
+      "export": true
+    },
+    {
+      "name": "mobileNav",
+      "export": true
+    },
+    {
+      "name": "viewParameters",
+      "export": true
+    },
+    {
+      "name": "footerModules",
+      "export": true
+    },
+    {
+      "name": "heroModules",
+      "export": true
+    },
+    {
+      "name": "threadModules",
+      "export": true
+    },
+    {
+      "name": "postListTopModules",
+      "export": true
+    },
+    {
+      "name": "postModules",
+      "export": true
+    },
+    {
+      "name": "postThumbnail",
+      "export": true
+    },
+    {
+      "name": "postHeading",
+      "export": true
+    },
+    {
+      "name": "postMeta",
+      "export": true
+    },
+    {
+      "name": "postClassCallbacks",
+      "export": true
+    },
+    {
+      "name": "postSubmitRenderedCallbacks",
+      "export": true
+    },
+    {
+      "name": "postSubmitClientCallbacks",
+      "export": true
+    },
+    {
+      "name": "postSubmitMethodCallbacks",
+      "export": true
+    },
+    {
+      "name": "postAfterSubmitMethodCallbacks",
+      "export": true
+    },
+    {
+      "name": "postApproveCallbacks",
+      "export": true
+    },
+    {
+      "name": "postEditRenderedCallbacks",
+      "export": true
+    },
+    {
+      "name": "postEditClientCallbacks",
+      "export": true
+    },
+    {
+      "name": "postEditMethodCallbacks",
+      "export": true
+    },
+    {
+      "name": "postAfterEditMethodCallbacks",
+      "export": true
+    },
+    {
+      "name": "commentClassCallbacks",
+      "export": true
+    },
+    {
+      "name": "commentSubmitRenderedCallbacks",
+      "export": true
+    },
+    {
+      "name": "commentSubmitClientCallbacks",
+      "export": true
+    },
+    {
+      "name": "commentSubmitMethodCallbacks",
+      "export": true
+    },
+    {
+      "name": "commentAfterSubmitMethodCallbacks",
+      "export": true
+    },
+    {
+      "name": "commentEditRenderedCallbacks",
+      "export": true
+    },
+    {
+      "name": "commentEditClientCallbacks",
+      "export": true
+    },
+    {
+      "name": "commentEditMethodCallbacks",
+      "export": true
+    },
+    {
+      "name": "commentAfterEditMethodCallbacks",
+      "export": true
+    },
+    {
+      "name": "upvoteCallbacks",
+      "export": true
+    },
+    {
+      "name": "downvoteCallbacks",
+      "export": true
+    },
+    {
+      "name": "cancelUpvoteCallbacks",
+      "export": true
+    },
+    {
+      "name": "cancelDownvoteCallbacks",
+      "export": true
+    },
+    {
+      "name": "upvoteMethodCallbacks",
+      "export": true
+    },
+    {
+      "name": "downvoteMethodCallbacks",
+      "export": true
+    },
+    {
+      "name": "cancelUpvoteMethodCallbacks",
+      "export": true
+    },
+    {
+      "name": "cancelDownvoteMethodCallbacks",
+      "export": true
+    },
+    {
+      "name": "userEditRenderedCallbacks",
+      "export": true
+    },
+    {
+      "name": "userEditClientCallbacks",
+      "export": true
+    },
+    {
+      "name": "userProfileCompleteChecks",
+      "export": true
+    },
+    {
+      "name": "userProfileDisplay",
+      "export": true
+    },
+    {
+      "name": "userProfileEdit",
+      "export": true
+    },
+    {
+      "name": "userCreatedCallbacks",
+      "export": true
+    },
+    {
+      "name": "getTemplate",
+      "export": true
+    },
+    {
+      "name": "templates",
+      "export": true
+    },
+    {
+      "name": "getIcon",
+      "export": true
+    },
+    {
+      "name": "icons",
+      "export": true
+    },
+    {
+      "name": "colorTable",
+      "export": true
+    },
+    {
+      "name": "registerElementColor",
+      "export": true
+    },
+    {
+      "name": "themeSettings",
+      "export": true
+    },
+    {
+      "name": "getVotePower",
+      "export": true
+    },
+    {
+      "name": "accent"
+    },
+    {
+      "name": "accentContrast"
+    },
+    {
+      "name": "secondary"
+    },
+    {
+      "name": "secondaryContrast"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "telescope-i18n"
+    },
+    {
+      "package": "telescope-lib"
+    },
+    {
+      "package": "aldeed:simple-schema"
+    },
+    {
+      "package": "check"
+    }
+  ],
+  "implies": [
+    {
+      "package": "aldeed:simple-schema",
+      "constraint": ""
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.browser/packages/telescope-base.js",
+      "length": 66091,
+      "offset": 0,
+      "servePath": "/packages/telescope-base.js",
+      "sourceMap": "web.browser/packages/telescope-base.js.map"
+    }
+  ]
+}

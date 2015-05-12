@@ -1,0 +1,112 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "preloadSubscriptions",
+      "export": true
+    },
+    {
+      "name": "adminMenu",
+      "export": true
+    },
+    {
+      "name": "Categories",
+      "export": true
+    },
+    {
+      "name": "addToPostSchema",
+      "export": true
+    },
+    {
+      "name": "primaryNav",
+      "export": true
+    },
+    {
+      "name": "postModules",
+      "export": true
+    },
+    {
+      "name": "getPostCategories",
+      "export": true
+    },
+    {
+      "name": "categorySchema"
+    },
+    {
+      "name": "getCategoryUrl"
+    },
+    {
+      "name": "__"
+    },
+    {
+      "name": "registerI18nTemplate"
+    },
+    {
+      "name": "registerTemplate"
+    },
+    {
+      "name": "non_package_templates"
+    },
+    {
+      "name": "PostsCategoryController"
+    },
+    {
+      "name": "translations"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "telescope-lib"
+    },
+    {
+      "package": "telescope-base"
+    },
+    {
+      "package": "aldeed:simple-schema"
+    },
+    {
+      "package": "aldeed:autoform"
+    },
+    {
+      "package": "tap:i18n"
+    },
+    {
+      "package": "fourseven:scss"
+    },
+    {
+      "package": "matb33:collection-hooks"
+    },
+    {
+      "package": "jquery"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "iron:router"
+    },
+    {
+      "package": "templating"
+    }
+  ],
+  "resources": [
+    {
+      "type": "css",
+      "file": "web.browser/packages/telescope-tags/lib/client/scss/categories.scss.css",
+      "length": 1057,
+      "offset": 0,
+      "servePath": "/packages/telescope-tags/lib/client/scss/categories.scss.css"
+    },
+    {
+      "type": "prelink",
+      "file": "web.browser/packages/telescope-tags.js",
+      "length": 56994,
+      "offset": 0,
+      "servePath": "/packages/telescope-tags.js",
+      "sourceMap": "web.browser/packages/telescope-tags.js.map"
+    }
+  ]
+}

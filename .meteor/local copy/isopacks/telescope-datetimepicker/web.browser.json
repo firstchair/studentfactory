@@ -1,0 +1,72 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "templating",
+      "constraint": "1.0.0"
+    },
+    {
+      "package": "blaze",
+      "constraint": "2.0.0"
+    },
+    {
+      "package": "aldeed:autoform"
+    },
+    {
+      "package": "fourseven:scss"
+    }
+  ],
+  "resources": [
+    {
+      "type": "css",
+      "file": "web.browser/packages/telescope-datetimepicker/datetimepicker.scss.css",
+      "length": 4122,
+      "offset": 0,
+      "servePath": "/packages/telescope-datetimepicker/datetimepicker.scss.css"
+    },
+    {
+      "type": "asset",
+      "file": "web.browser/packages/telescope-datetimepicker/fonts/glyphicons-halflings-regular.eot",
+      "length": 20335,
+      "offset": 0,
+      "servePath": "/packages/telescope-datetimepicker/fonts/glyphicons-halflings-regular.eot",
+      "path": "fonts/glyphicons-halflings-regular.eot"
+    },
+    {
+      "type": "asset",
+      "file": "web.browser/packages/telescope-datetimepicker/fonts/glyphicons-halflings-regular.svg",
+      "length": 62926,
+      "offset": 0,
+      "servePath": "/packages/telescope-datetimepicker/fonts/glyphicons-halflings-regular.svg",
+      "path": "fonts/glyphicons-halflings-regular.svg"
+    },
+    {
+      "type": "asset",
+      "file": "web.browser/packages/telescope-datetimepicker/fonts/glyphicons-halflings-regular.ttf",
+      "length": 41280,
+      "offset": 0,
+      "servePath": "/packages/telescope-datetimepicker/fonts/glyphicons-halflings-regular.ttf",
+      "path": "fonts/glyphicons-halflings-regular.ttf"
+    },
+    {
+      "type": "asset",
+      "file": "web.browser/packages/telescope-datetimepicker/fonts/glyphicons-halflings-regular.woff",
+      "length": 23320,
+      "offset": 0,
+      "servePath": "/packages/telescope-datetimepicker/fonts/glyphicons-halflings-regular.woff",
+      "path": "fonts/glyphicons-halflings-regular.woff"
+    },
+    {
+      "type": "prelink",
+      "file": "web.browser/packages/telescope-datetimepicker.js",
+      "length": 47737,
+      "offset": 0,
+      "servePath": "/packages/telescope-datetimepicker.js",
+      "sourceMap": "web.browser/packages/telescope-datetimepicker.js.map"
+    }
+  ]
+}

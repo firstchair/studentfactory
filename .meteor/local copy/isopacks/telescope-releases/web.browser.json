@@ -1,0 +1,73 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "Releases",
+      "export": true
+    },
+    {
+      "name": "__"
+    },
+    {
+      "name": "registerI18nTemplate"
+    },
+    {
+      "name": "registerTemplate"
+    },
+    {
+      "name": "non_package_templates"
+    },
+    {
+      "name": "translations"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "tap:i18n"
+    },
+    {
+      "package": "iron:router"
+    },
+    {
+      "package": "telescope-base"
+    },
+    {
+      "package": "telescope-lib"
+    },
+    {
+      "package": "telescope-i18n"
+    },
+    {
+      "package": "fourseven:scss"
+    },
+    {
+      "package": "jquery"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "templating"
+    }
+  ],
+  "resources": [
+    {
+      "type": "css",
+      "file": "web.browser/packages/telescope-releases/lib/client/scss/releases.scss.css",
+      "length": 158,
+      "offset": 0,
+      "servePath": "/packages/telescope-releases/lib/client/scss/releases.scss.css"
+    },
+    {
+      "type": "prelink",
+      "file": "web.browser/packages/telescope-releases.js",
+      "length": 16146,
+      "offset": 0,
+      "servePath": "/packages/telescope-releases.js",
+      "sourceMap": "web.browser/packages/telescope-releases.js.map"
+    }
+  ]
+}

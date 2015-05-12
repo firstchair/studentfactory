@@ -1,0 +1,51 @@
+{
+  "builtBy": "meteor/16",
+  "unibuildDependencies": {
+    "os.json": {
+      "files": {
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-i18n/package.js": "40c260d7671e1e8234e4bedbbca00fbcbe59179d",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-i18n/i18n.js": "ec2e1d19ebf359f9d297ef585efb0533e4bcdc02"
+      },
+      "directories": []
+    },
+    "web.browser.json": {
+      "files": {
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-i18n/package.js": "40c260d7671e1e8234e4bedbbca00fbcbe59179d",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-i18n/i18n.js": "ec2e1d19ebf359f9d297ef585efb0533e4bcdc02"
+      },
+      "directories": []
+    },
+    "web.cordova.json": {
+      "files": {
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-i18n/package.js": "40c260d7671e1e8234e4bedbbca00fbcbe59179d",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-i18n/i18n.js": "ec2e1d19ebf359f9d297ef585efb0533e4bcdc02"
+      },
+      "directories": []
+    }
+  },
+  "pluginDependencies": {
+    "files": {
+      "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-i18n/package.js": "40c260d7671e1e8234e4bedbbca00fbcbe59179d"
+    },
+    "directories": []
+  },
+  "pluginProviderPackageMap": {
+    "telescope-i18n": {
+      "kind": "local",
+      "sourceRoot": "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-i18n"
+    },
+    "meteor": {
+      "kind": "versioned",
+      "version": "1.1.6"
+    },
+    "tap:i18n": {
+      "kind": "versioned",
+      "version": "1.4.1"
+    },
+    "session": {
+      "kind": "versioned",
+      "version": "1.1.0"
+    }
+  },
+  "includeCordovaUnibuild": true
+}

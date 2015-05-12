@@ -1,0 +1,80 @@
+{
+  "builtBy": "meteor/16",
+  "unibuildDependencies": {
+    "os.json": {
+      "files": {
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-datetimepicker/package.js": "9f01cd22aad2852210740db139ca546f42463104"
+      },
+      "directories": []
+    },
+    "web.browser.json": {
+      "files": {
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-datetimepicker/package.js": "9f01cd22aad2852210740db139ca546f42463104",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-datetimepicker/datetimepicker.scss": "a933b91cf0c2a63e790222b412eff4839295ef34",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-datetimepicker/autoform-bs-datetimepicker.html": "e0bf5cd436dda4439b72a70a56d8896d77c1485c",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-datetimepicker/autoform-bs-datetimepicker.js": "59120ee0c8537569fb2c2e250c91d4855cd968cd",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-datetimepicker/bootstrap-collapse-transitions.js": "ca5345b336e9b39ae9812016b84b17fa888d71b6",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-datetimepicker/fonts/glyphicons-halflings-regular.eot": "f3a9a3b609133c3d21d6b42abbf7f43bd111df72",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-datetimepicker/fonts/glyphicons-halflings-regular.svg": "66b1fc67e37d01ee45ca75c4eefb144d2dbe98fa",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-datetimepicker/fonts/glyphicons-halflings-regular.ttf": "aafafdc09404c4aa4447d7e898a2183def9cc1b1",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-datetimepicker/fonts/glyphicons-halflings-regular.woff": "22037a3455914e5662fa51a596677bdb329e2c5c"
+      },
+      "directories": []
+    },
+    "web.cordova.json": {
+      "files": {
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-datetimepicker/package.js": "9f01cd22aad2852210740db139ca546f42463104",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-datetimepicker/datetimepicker.scss": "a933b91cf0c2a63e790222b412eff4839295ef34",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-datetimepicker/autoform-bs-datetimepicker.html": "e0bf5cd436dda4439b72a70a56d8896d77c1485c",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-datetimepicker/autoform-bs-datetimepicker.js": "59120ee0c8537569fb2c2e250c91d4855cd968cd",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-datetimepicker/bootstrap-collapse-transitions.js": "ca5345b336e9b39ae9812016b84b17fa888d71b6",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-datetimepicker/fonts/glyphicons-halflings-regular.eot": "f3a9a3b609133c3d21d6b42abbf7f43bd111df72",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-datetimepicker/fonts/glyphicons-halflings-regular.svg": "66b1fc67e37d01ee45ca75c4eefb144d2dbe98fa",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-datetimepicker/fonts/glyphicons-halflings-regular.ttf": "aafafdc09404c4aa4447d7e898a2183def9cc1b1",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-datetimepicker/fonts/glyphicons-halflings-regular.woff": "22037a3455914e5662fa51a596677bdb329e2c5c"
+      },
+      "directories": []
+    }
+  },
+  "pluginDependencies": {
+    "files": {
+      "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-datetimepicker/package.js": "9f01cd22aad2852210740db139ca546f42463104"
+    },
+    "directories": []
+  },
+  "pluginProviderPackageMap": {
+    "telescope-datetimepicker": {
+      "kind": "local",
+      "sourceRoot": "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-datetimepicker"
+    },
+    "meteor": {
+      "kind": "versioned",
+      "version": "1.1.6"
+    },
+    "templating": {
+      "kind": "versioned",
+      "version": "1.1.1"
+    },
+    "blaze": {
+      "kind": "versioned",
+      "version": "2.1.2"
+    },
+    "aldeed:autoform": {
+      "kind": "versioned",
+      "version": "5.1.2"
+    },
+    "fourseven:scss": {
+      "kind": "versioned",
+      "version": "2.1.1"
+    },
+    "htmljs": {
+      "kind": "versioned",
+      "version": "1.0.4"
+    },
+    "aldeed:simple-schema": {
+      "kind": "versioned",
+      "version": "1.3.2"
+    }
+  },
+  "includeCordovaUnibuild": true
+}

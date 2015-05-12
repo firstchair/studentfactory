@@ -1,0 +1,62 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "Feeds",
+      "export": true
+    },
+    {
+      "name": "fetchFeeds"
+    },
+    {
+      "name": "translations"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "telescope-base"
+    },
+    {
+      "package": "telescope-tags"
+    },
+    {
+      "package": "aldeed:simple-schema"
+    },
+    {
+      "package": "aldeed:autoform"
+    },
+    {
+      "package": "tap:i18n"
+    },
+    {
+      "package": "fourseven:scss"
+    },
+    {
+      "package": "http"
+    },
+    {
+      "package": "aldeed:http",
+      "constraint": "0.2.2"
+    },
+    {
+      "package": "momentjs:moment"
+    },
+    {
+      "package": "percolatestudio:synced-cron"
+    }
+  ],
+  "node_modules": "npm/node_modules",
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/telescope-post-by-feed.js",
+      "length": 41907,
+      "offset": 0,
+      "servePath": "/packages/telescope-post-by-feed.js",
+      "sourceMap": "os/packages/telescope-post-by-feed.js.map"
+    }
+  ]
+}

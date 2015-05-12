@@ -1,0 +1,130 @@
+{
+  "builtBy": "meteor/16",
+  "unibuildDependencies": {
+    "os.json": {
+      "files": {
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-singleday/package.js": "4fafa852c8024d289f762252574c248a473f5d6c",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-base/package.js": "97aed0ac4083d731f2f5ff7379ce6ceac44f85b5",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-lib/package.js": "608e0f0281a319db03a1dd4c8e11f1e5498feb27",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-i18n/package.js": "40c260d7671e1e8234e4bedbbca00fbcbe59179d",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-singleday/package-tap.i18n": "f6a2318986df41df748399f53ee3d59d7f31c179",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-singleday/lib/routes.js": "27f3e66df8655759867605fa67d03b2ff74f3d6d",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-singleday/lib/singleday.js": "01b9914ee89f2c4290c8edd87ddc24e9c111160e",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-singleday/i18n/bg.i18n.json": "6e8c9caccdd756ab5f338058578f9be8e25b7ccd",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-singleday/i18n/de.i18n.json": "3edcfdec00854dbbd18c09573e72f28465f589a4",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-singleday/i18n/en.i18n.json": "3773cc5a5f2813ebe86afc88eecb5ffcb3ab8f2d",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-singleday/i18n/es.i18n.json": "e3bef2cc396e8557947e29dd5bd5fcf170070c89",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-singleday/i18n/fr.i18n.json": "85a80720d564240ca58c35745503687ab478c609",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-singleday/i18n/it.i18n.json": "fd3b25419851d1907a332e5ff374ab73beaa5527",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-singleday/i18n/tr.i18n.json": "08ed8736807156a42a79cf9f996ae03f9662e0cd",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-singleday/i18n/zh-CN.i18n.json": "71aa6c4ad02a6fbff5fccb26bf58519c0f1a209f"
+      },
+      "directories": []
+    },
+    "web.browser.json": {
+      "files": {
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-singleday/package.js": "4fafa852c8024d289f762252574c248a473f5d6c",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-base/package.js": "97aed0ac4083d731f2f5ff7379ce6ceac44f85b5",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-lib/package.js": "608e0f0281a319db03a1dd4c8e11f1e5498feb27",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-i18n/package.js": "40c260d7671e1e8234e4bedbbca00fbcbe59179d",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-singleday/package-tap.i18n": "f6a2318986df41df748399f53ee3d59d7f31c179",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-singleday/lib/routes.js": "27f3e66df8655759867605fa67d03b2ff74f3d6d",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-singleday/lib/singleday.js": "01b9914ee89f2c4290c8edd87ddc24e9c111160e",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-singleday/lib/client/templates/single_day.html": "4d94d8978eafad545eae3b22ef09015d90d8ff78",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-singleday/lib/client/templates/single_day.js": "c557a20231860801cec229cd602ec6dd7cb848e3",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-singleday/lib/client/templates/single_day_nav.html": "86c03f874221c8c3b01bb8e0b648be57c8d11bae",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-singleday/lib/client/templates/single_day_nav.js": "c68891fd2187c9cdeeea50720e25cd6a5d59cd4f",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-singleday/i18n/bg.i18n.json": "6e8c9caccdd756ab5f338058578f9be8e25b7ccd",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-singleday/i18n/de.i18n.json": "3edcfdec00854dbbd18c09573e72f28465f589a4",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-singleday/i18n/en.i18n.json": "3773cc5a5f2813ebe86afc88eecb5ffcb3ab8f2d",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-singleday/i18n/es.i18n.json": "e3bef2cc396e8557947e29dd5bd5fcf170070c89",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-singleday/i18n/fr.i18n.json": "85a80720d564240ca58c35745503687ab478c609",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-singleday/i18n/it.i18n.json": "fd3b25419851d1907a332e5ff374ab73beaa5527",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-singleday/i18n/tr.i18n.json": "08ed8736807156a42a79cf9f996ae03f9662e0cd",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-singleday/i18n/zh-CN.i18n.json": "71aa6c4ad02a6fbff5fccb26bf58519c0f1a209f"
+      },
+      "directories": []
+    },
+    "web.cordova.json": {
+      "files": {
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-singleday/package.js": "4fafa852c8024d289f762252574c248a473f5d6c",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-base/package.js": "97aed0ac4083d731f2f5ff7379ce6ceac44f85b5",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-lib/package.js": "608e0f0281a319db03a1dd4c8e11f1e5498feb27",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-i18n/package.js": "40c260d7671e1e8234e4bedbbca00fbcbe59179d",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-singleday/package-tap.i18n": "f6a2318986df41df748399f53ee3d59d7f31c179",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-singleday/lib/routes.js": "27f3e66df8655759867605fa67d03b2ff74f3d6d",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-singleday/lib/singleday.js": "01b9914ee89f2c4290c8edd87ddc24e9c111160e",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-singleday/lib/client/templates/single_day.html": "4d94d8978eafad545eae3b22ef09015d90d8ff78",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-singleday/lib/client/templates/single_day.js": "c557a20231860801cec229cd602ec6dd7cb848e3",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-singleday/lib/client/templates/single_day_nav.html": "86c03f874221c8c3b01bb8e0b648be57c8d11bae",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-singleday/lib/client/templates/single_day_nav.js": "c68891fd2187c9cdeeea50720e25cd6a5d59cd4f",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-singleday/i18n/bg.i18n.json": "6e8c9caccdd756ab5f338058578f9be8e25b7ccd",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-singleday/i18n/de.i18n.json": "3edcfdec00854dbbd18c09573e72f28465f589a4",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-singleday/i18n/en.i18n.json": "3773cc5a5f2813ebe86afc88eecb5ffcb3ab8f2d",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-singleday/i18n/es.i18n.json": "e3bef2cc396e8557947e29dd5bd5fcf170070c89",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-singleday/i18n/fr.i18n.json": "85a80720d564240ca58c35745503687ab478c609",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-singleday/i18n/it.i18n.json": "fd3b25419851d1907a332e5ff374ab73beaa5527",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-singleday/i18n/tr.i18n.json": "08ed8736807156a42a79cf9f996ae03f9662e0cd",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-singleday/i18n/zh-CN.i18n.json": "71aa6c4ad02a6fbff5fccb26bf58519c0f1a209f"
+      },
+      "directories": []
+    }
+  },
+  "pluginDependencies": {
+    "files": {
+      "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-singleday/package.js": "4fafa852c8024d289f762252574c248a473f5d6c"
+    },
+    "directories": []
+  },
+  "pluginProviderPackageMap": {
+    "telescope-singleday": {
+      "kind": "local",
+      "sourceRoot": "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-singleday"
+    },
+    "meteor": {
+      "kind": "versioned",
+      "version": "1.1.6"
+    },
+    "telescope-base": {
+      "kind": "local",
+      "sourceRoot": "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-base"
+    },
+    "telescope-lib": {
+      "kind": "local",
+      "sourceRoot": "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-lib"
+    },
+    "telescope-i18n": {
+      "kind": "local",
+      "sourceRoot": "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/klussenbank/packages/telescope-i18n"
+    },
+    "tap:i18n": {
+      "kind": "versioned",
+      "version": "1.4.1"
+    },
+    "iron:router": {
+      "kind": "versioned",
+      "version": "1.0.7"
+    },
+    "aldeed:simple-schema": {
+      "kind": "versioned",
+      "version": "1.3.2"
+    },
+    "iron:core": {
+      "kind": "versioned",
+      "version": "1.0.7"
+    },
+    "jquery": {
+      "kind": "versioned",
+      "version": "1.11.3_2"
+    },
+    "underscore": {
+      "kind": "versioned",
+      "version": "1.0.3"
+    },
+    "templating": {
+      "kind": "versioned",
+      "version": "1.1.1"
+    }
+  },
+  "includeCordovaUnibuild": true
+}

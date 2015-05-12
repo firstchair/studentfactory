@@ -1,0 +1,33 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "templating",
+      "constraint": "1.0.0"
+    },
+    {
+      "package": "blaze",
+      "constraint": "2.0.0"
+    },
+    {
+      "package": "aldeed:autoform"
+    },
+    {
+      "package": "fourseven:scss"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/telescope-datetimepicker.js",
+      "length": 0,
+      "offset": 0,
+      "servePath": "/packages/telescope-datetimepicker.js",
+      "sourceMap": "os/packages/telescope-datetimepicker.js.map"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "deleteDummyContent",
+      "export": true
+    },
+    {
+      "name": "__"
+    },
+    {
+      "name": "registerI18nTemplate"
+    },
+    {
+      "name": "registerTemplate"
+    },
+    {
+      "name": "non_package_templates"
+    },
+    {
+      "name": "translations"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "tap:i18n"
+    },
+    {
+      "package": "iron:router"
+    },
+    {
+      "package": "telescope-base"
+    },
+    {
+      "package": "telescope-lib"
+    },
+    {
+      "package": "telescope-i18n"
+    },
+    {
+      "package": "momentjs:moment"
+    },
+    {
+      "package": "jquery"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "templating"
+    }
+  ],
+  "resources": [
+    {
+      "type": "asset",
+      "file": "web.browser/packages/telescope-getting-started/content/images/stackoverflow.png",
+      "length": 4603,
+      "offset": 0,
+      "servePath": "/packages/telescope-getting-started/content/images/stackoverflow.png",
+      "path": "content/images/stackoverflow.png"
+    },
+    {
+      "type": "asset",
+      "file": "web.browser/packages/telescope-getting-started/content/images/telescope.png",
+      "length": 26004,
+      "offset": 0,
+      "servePath": "/packages/telescope-getting-started/content/images/telescope.png",
+      "path": "content/images/telescope.png"
+    },
+    {
+      "type": "prelink",
+      "file": "web.browser/packages/telescope-getting-started.js",
+      "length": 8360,
+      "offset": 0,
+      "servePath": "/packages/telescope-getting-started.js",
+      "sourceMap": "web.browser/packages/telescope-getting-started.js.map"
+    }
+  ]
+}

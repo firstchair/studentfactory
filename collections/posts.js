@@ -73,7 +73,7 @@ postSchemaObject = {
     optional: true,
     label: "Begindatum project",
     autoform: {
-      type: "bootstrap-datetimepicker",
+      type: "date",
       class: "date-form",
       editable: true
     }
@@ -83,7 +83,7 @@ postSchemaObject = {
     optional: true,
     label: "Einddatum project",
     autoform: {
-      type: "bootstrap-datetimepicker",
+      type: "date",
       class: "date-form",
       editable: true
     }

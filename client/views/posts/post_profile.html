@@ -1,0 +1,10 @@
+<template name="post_profile">
+ <br>
+  <div class="post-body">
+       <a class="post-author" href="{{profileUrl userId}}">{{displayName userId}}</a>
+        <a href="{{profileUrl this}}" class="avatar-link avatar-big">
+          {{> avatar userId=this shape="circle"}}
+        </a>
+	  </div>
+	 
+</template>

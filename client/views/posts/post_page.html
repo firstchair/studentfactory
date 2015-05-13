@@ -1,7 +1,9 @@
 <template name="post_page">
   <div class="single-post grid">
     <div class="posts posts-list">
-      {{> UI.dynamic template=post_item}}
+<!--      {{> UI.dynamic template=post_item}}-->
+      {{> UI.dynamic template=post_profile}}
+      {{> UI.dynamic template=post_detail}}
     </div>
     {{#if body}}
       {{> UI.dynamic template=post_body}}

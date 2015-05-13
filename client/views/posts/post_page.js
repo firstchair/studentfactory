@@ -5,6 +5,12 @@ Template[getTemplate('post_page')].helpers({
   post_body: function () {
     return getTemplate('post_body');
   },
+  post_profile: function () {
+    return getTemplate('post_profile');
+  },
+  post_detail: function () {
+    return getTemplate('post_detail');
+  },	
   comment_form: function () {
     return getTemplate('comment_form');
   },

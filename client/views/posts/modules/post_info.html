@@ -1,13 +1,11 @@
 <template name="postInfo">
   <div class="post-meta-item" aria-live="off">
-    <span class="startdatum">{{start}}</span>
-    <span class="einddatum"> {{end}}</span>
-    <!-- <span class="points">{{baseScore}}</span> -->
-    <!-- <span class="unit">{{pointsUnitDisplayText}}</span> -->
-    {{#if postedAt}}<span class="post-time">{{timeAgo postedAt}}</span>{{/if}}
+       {{#if postedAt}}<span class="post-time">{{timeAgo postedAt}}</span>{{/if}}
     {{#if canEdit this}}
       | <a href="{{pathFor route='post_edit' _id=_id}}" class="edit-link goto-edit">{{_ "edit"}}</a>
     {{/if}}
+    <!-- <span class="points">{{baseScore}}</span> -->
+    <!-- <span class="unit">{{pointsUnitDisplayText}}</span> -->
   </div>
 
 <!-- <a href="mailto:{{ProfileEmail}}?subject=Project aanmelding&body=Deze aanvraag is verzonden via de CMD Klussenbank&cc=anotheremailaddress@anotherdomain.com
@@ -24,4 +22,5 @@
 {{displayName userId}}
 {{authorName}}
 <a class="post-author" href="{{profileUrl userAccount}}">Email</a> -->
+
 </template>

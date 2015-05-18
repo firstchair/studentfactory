@@ -23,7 +23,7 @@
 //   position: relative;
 //   top: 40vh;
 // 	color: white;
-// 
+//
 // }
 //
 // .intro h1{
@@ -36,87 +36,128 @@
 // 	font-size: 2.5em;
 // }
 
-html {
-  position: relative;
-  min-height: 100%;
-}
-body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
-}
 
 .single-post{
 	display: flex;
 	flex-wrap: wrap;
 }
 
-.grid-module {
-	 min-height: 100%;
-  /* equal to footer height */
-//  margin-bottom: -75px; 
-	  min-height: 100%;
-	margin-bottom: -75px
+.head-body{
+	display: flex;
+	flex-wrap: wrap;
+	order: 2;
+	height: 100%;
+	width: 75%;
 }
 
-// user-profile-comments, .grid-module:after{
-//	content: "";
-//  display: block;
-//	height: 75px; 
-//}
+.post-wrapper{
+	width: 25%;
+}
 
 .admin-wrapper{
 	flex-wrap: nowrap;
 }
 
-.single-post .posts{
-	width: 25em;
-}
+//.single-post .posts{
+//	width: 25em;
+//}
 
 .post-body{
-	width: 59vw;
-	margin-left: 1em;
+	order: 1;
+}
+
+.markdown{
+	  width: 100%;
+	  margin-left: 1em;
+	  margin-top: 1em;
+	  order: 4;
+}
+
+.post-detail{
+	width: 100%;
+	  margin-left: 1em;
+	  order: 2;
 }
 
 a.comment-submit-button.btn.btn-primary.btn-submit{
-	max-width: 25em;
-	width: 23.5em;
+	max-width: 25vw;
+	width: 100%;
 	height: 3em;
 	padding: 1em;
+	order: 3;
 }
 
 .post-subscribe.module.grid-block{
-  width: 59.5vw;
+  width: 100%;
   text-align: center;
-  margin-left: 26em;
+  margin-left: 1em;
 	margin-bottom: 4em;
+	order: 7;
 }
 
 .comment-list{
-	 margin-left: 24em;
-	width: 61.5vw;
+	 margin-left: 1em;
+	width: 100%;
+	order: 6;
 }
 
 .comment-new.module{
-	width: 59vw;
+	width: 100%;
 	margin-left: 1em;
+	order: 5;
 }
 
-.footer {
-    position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 60px;
-  background-color: #f5f5f5;
-}
-
-//.footer:before{
-//	content: "";
+//.post-body{
+//	display: block;
+//	float: left;
+//}
+//
+//.post-detail{
 //  display: block;
-//	height: 75px; 
+//  float: right;
+//  width: 72em;
+//}
+//
+//.post-body.markdown{
+//  display: block;
+//  width: 63em;
+//  float: right;
+//  margin-top: 1em;
+//}
+//
+//.comment-new.module{
+//  display: block;
+//  width: 63em;
+//  float: right;
+//}
+//
+//.post-subscribe.module.grid-block{
+//  display: block;
+//width: 72em;
+//  float: right;
+//}
+//
+//ul.comments.comment-list{
+//  display: block;
+//  width: 61em;
+//  float: right;
+//  margin-top: 1em;
 //}
 
-@media (max-width: 983px) {
+
+.footer{
+	clear: both;
+}
+
+@media (max-width: 850px) {
+
+	.post-wrapper{
+		width: 100%;
+	}
+
+	.head-body{
+		width: 100%;
+	}
 
 .single-post .posts{
 	width: 100%;
@@ -128,22 +169,27 @@ a.comment-submit-button.btn.btn-primary.btn-submit{
 	margin-top: 1em;
 }
 
+.post-detail{
+	margin-left: 0;
+}
+
 a.comment-submit-button.btn.btn-primary.btn-submit{
  	max-width: 100%;
   	width: 100%;
   	height: 2.5em;
+	margin-bottom: 1em;
 }
 
 .comment-new.module{
 	width: 100%;
 	margin-left: 0em;
 }
-	
+
 .post-subscribe.module.grid-block{
 	width: 100%;
 	margin-left: 0;
 }
-	
+
 .comment-list{
 	 margin-left: 0;
 	width: 100%;

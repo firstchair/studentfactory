@@ -99,7 +99,7 @@ postSchemaObject = {
   voorwaarden: {
     type: String,
     optional: false,
-    label: "Algemene voorwaarden",
+    label: "Akkoort met de algemene voorwaarden",
     autoform: {
       type: "boolean-checkbox",
       editable: true

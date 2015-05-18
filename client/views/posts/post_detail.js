@@ -22,12 +22,12 @@ Template[getTemplate('post_detail')].helpers({
   },
   postClass: function () {
     var post = this;
-    var postAuthorClass = "author-"+post.author;
+    var postAuthorClass = "post-detail author-"+post.author;
 
     var postClass = postClassCallbacks.reduce(function(result, currentFunction) {
         return currentFunction(post, result);
     }, postAuthorClass);
-    
+
     return postClass;
   }
 });

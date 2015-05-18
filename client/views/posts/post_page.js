@@ -30,8 +30,9 @@ Template[getTemplate('post_body')].helpers({
   },
   getTemplate: function() {
     return getTemplate("postAuthor");
-  },
-  ProjectEmail: function(){
-    return Meteor.user().emails[0].address;
   }
+//	,
+//  ProjectEmail: function(){
+//    return Meteor.user().emails[0].address;
+//  }
 });

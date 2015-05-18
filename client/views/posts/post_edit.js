@@ -46,7 +46,7 @@ Template[getTemplate('post_edit')].events({
 
     e.preventDefault();
 
-    if(confirm("Are you sure?")){
+    if(confirm("Weet je zeker dat je het project wilt verwijderen?")){
       Router.go("/");
       Meteor.call("deletePostById", post._id, function(error) {
         if (error) {

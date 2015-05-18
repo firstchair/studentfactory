@@ -2,6 +2,9 @@
     {{#each postThumbnail}}
       {{> UI.dynamic template=getTemplate data=..}}
     {{/each}}
+        <a href="{{profileUrl userId}}" class="avatar-link avatar-small author-avatar">
+      {{> avatar userId=userId}}
+    </a>
     <div class="post-info">
       <h3 class="post-heading">
         {{#each postHeading}}

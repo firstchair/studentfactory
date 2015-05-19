@@ -2,7 +2,7 @@
  <br>
 <div class="post-wrapper">
   <div class="post-body">
-        <a href="{{profileUrl this}}" class="avatar-link avatar-big">
+        <a href="{{profileUrl this}}" class="avatar">
           {{> avatar userId=this shape="circle"}}
         </a>
         <a class="post-author" href="{{profileUrl userId}}">{{displayName userId}}</a>
@@ -25,5 +25,7 @@
   {{else}}
   <button type="button" onclick="window.location.href='/sign-in'" class="btn btn-default">Log in om te reageren op deze klus</button>
   {{/if}}
+
+
 </div>
 </template>

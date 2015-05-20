@@ -1,0 +1,33 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "Messages",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "minimongo"
+    },
+    {
+      "package": "templating"
+    },
+    {
+      "package": "telescope-base"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.browser/packages/telescope-messages.js",
+      "length": 10010,
+      "offset": 0,
+      "servePath": "/packages/telescope-messages.js",
+      "sourceMap": "web.browser/packages/telescope-messages.js.map"
+    }
+  ]
+}

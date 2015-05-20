@@ -1,0 +1,110 @@
+{
+  "builtBy": "meteor/16",
+  "unibuildDependencies": {
+    "os.json": {
+      "files": {
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/studentfactory/packages/telescope-tags/package.js": "783c9fc2c0a4985c3805b914401b1231a1471c3c",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/studentfactory/packages/telescope-lib/package.js": "608e0f0281a319db03a1dd4c8e11f1e5498feb27",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/studentfactory/packages/telescope-base/package.js": "97aed0ac4083d731f2f5ff7379ce6ceac44f85b5",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/studentfactory/packages/telescope-tags/lib/categories.js": "689cc230e239a4183e95c2982cd9b6883e9d04ac",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/studentfactory/packages/telescope-tags/lib/custom_fields.js": "ffe5d7f5d55a718f99e87d93e06ac9fdb9d7a540",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/studentfactory/packages/telescope-tags/lib/hooks.js": "e8dc4feb54402ebd4981bd645585eaa94e4cd7da",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/studentfactory/packages/telescope-tags/package-tap.i18n": "f6a2318986df41df748399f53ee3d59d7f31c179",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/studentfactory/packages/telescope-tags/lib/server/publications.js": "db1931d670d3930a79b5bc5da09bee2d0c2e7552",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/studentfactory/packages/telescope-tags/lib/server/hooks.js": "09674f12d50e5c1389b03abf44c4e950b684ebdf",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/studentfactory/packages/telescope-tags/i18n/en.i18n.json": "aaf630da130c59300ad388e45387dafbae574f7d"
+      },
+      "directories": []
+    },
+    "web.browser.json": {
+      "files": {
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/studentfactory/packages/telescope-tags/package.js": "783c9fc2c0a4985c3805b914401b1231a1471c3c",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/studentfactory/packages/telescope-lib/package.js": "608e0f0281a319db03a1dd4c8e11f1e5498feb27",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/studentfactory/packages/telescope-base/package.js": "97aed0ac4083d731f2f5ff7379ce6ceac44f85b5",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/studentfactory/packages/telescope-tags/lib/categories.js": "689cc230e239a4183e95c2982cd9b6883e9d04ac",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/studentfactory/packages/telescope-tags/lib/custom_fields.js": "ffe5d7f5d55a718f99e87d93e06ac9fdb9d7a540",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/studentfactory/packages/telescope-tags/lib/hooks.js": "e8dc4feb54402ebd4981bd645585eaa94e4cd7da",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/studentfactory/packages/telescope-tags/package-tap.i18n": "f6a2318986df41df748399f53ee3d59d7f31c179",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/studentfactory/packages/telescope-tags/lib/client/routes.js": "9cf9dc02badf41fec006e7aa431130c89f6bd5b2",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/studentfactory/packages/telescope-tags/lib/client/scss/categories.scss": "407a06b1600ddc98a9dbc8cd2eef75e7191f69be",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/studentfactory/packages/telescope-tags/lib/client/templates/categories.html": "556d1d87db0b674b5392963d953c8ff0625ae9d7",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/studentfactory/packages/telescope-tags/lib/client/templates/categories.js": "482fa5c3466e6c09bbd87c93bb51a77c598150da",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/studentfactory/packages/telescope-tags/lib/client/templates/category_item.html": "2ee59e6e423e803bc962aeb309d11044fc53aeee",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/studentfactory/packages/telescope-tags/lib/client/templates/category_item.js": "b5cadcad8c2a1683a2524caedcb0a61d82fd41f1",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/studentfactory/packages/telescope-tags/lib/client/templates/category_title.html": "2f80c17bc5b6e827e6a85476714c283ed25d8f96",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/studentfactory/packages/telescope-tags/lib/client/templates/category_title.js": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/studentfactory/packages/telescope-tags/lib/client/templates/categories_menu.html": "53bada5c02e7d0238615e2612f7e4f8e855b1604",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/studentfactory/packages/telescope-tags/lib/client/templates/categories_menu.js": "3683fe65a2e39de94cc16f4e6da3bbfd586f8b6a",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/studentfactory/packages/telescope-tags/lib/client/templates/post_categories.html": "64073488601a070a16b7cf1a88bfacc72cc9b60b",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/studentfactory/packages/telescope-tags/lib/client/templates/post_categories.js": "63d2dbbc3ec10e2c1f0d674ea751c022f24e486e",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/studentfactory/packages/telescope-tags/i18n/en.i18n.json": "aaf630da130c59300ad388e45387dafbae574f7d"
+      },
+      "directories": []
+    }
+  },
+  "pluginDependencies": {
+    "files": {
+      "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/studentfactory/packages/telescope-tags/package.js": "783c9fc2c0a4985c3805b914401b1231a1471c3c"
+    },
+    "directories": []
+  },
+  "pluginProviderPackageMap": {
+    "telescope-tags": {
+      "kind": "local",
+      "sourceRoot": "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/studentfactory/packages/telescope-tags"
+    },
+    "meteor": {
+      "kind": "versioned",
+      "version": "1.1.6"
+    },
+    "telescope-lib": {
+      "kind": "local",
+      "sourceRoot": "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/studentfactory/packages/telescope-lib"
+    },
+    "telescope-base": {
+      "kind": "local",
+      "sourceRoot": "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/studentfactory/packages/telescope-base"
+    },
+    "aldeed:simple-schema": {
+      "kind": "versioned",
+      "version": "1.3.3"
+    },
+    "aldeed:autoform": {
+      "kind": "versioned",
+      "version": "5.1.2"
+    },
+    "tap:i18n": {
+      "kind": "versioned",
+      "version": "1.4.1"
+    },
+    "fourseven:scss": {
+      "kind": "versioned",
+      "version": "2.1.1"
+    },
+    "matb33:collection-hooks": {
+      "kind": "versioned",
+      "version": "0.7.13"
+    },
+    "jquery": {
+      "kind": "versioned",
+      "version": "1.11.3_2"
+    },
+    "underscore": {
+      "kind": "versioned",
+      "version": "1.0.3"
+    },
+    "iron:router": {
+      "kind": "versioned",
+      "version": "1.0.7"
+    },
+    "templating": {
+      "kind": "versioned",
+      "version": "1.1.1"
+    },
+    "iron:core": {
+      "kind": "versioned",
+      "version": "1.0.7"
+    }
+  },
+  "includeCordovaUnibuild": false
+}

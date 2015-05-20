@@ -1,0 +1,99 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "adminMenu",
+      "export": true
+    },
+    {
+      "name": "viewParameters",
+      "export": true
+    },
+    {
+      "name": "Searches"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "telescope-lib"
+    },
+    {
+      "package": "telescope-base"
+    },
+    {
+      "package": "telescope-settings"
+    },
+    {
+      "package": "aldeed:simple-schema"
+    }
+  ],
+  "resources": [
+    {
+      "type": "asset",
+      "file": "os/packages/telescope-search/package-tap.i18n",
+      "length": 87,
+      "offset": 0,
+      "servePath": "/packages/telescope-search/package-tap.i18n",
+      "path": "package-tap.i18n"
+    },
+    {
+      "type": "asset",
+      "file": "os/packages/telescope-search/i18n/de.i18n.json",
+      "length": 53,
+      "offset": 0,
+      "servePath": "/packages/telescope-search/i18n/de.i18n.json",
+      "path": "i18n/de.i18n.json"
+    },
+    {
+      "type": "asset",
+      "file": "os/packages/telescope-search/i18n/en.i18n.json",
+      "length": 154,
+      "offset": 0,
+      "servePath": "/packages/telescope-search/i18n/en.i18n.json",
+      "path": "i18n/en.i18n.json"
+    },
+    {
+      "type": "asset",
+      "file": "os/packages/telescope-search/i18n/es.i18n.json",
+      "length": 57,
+      "offset": 0,
+      "servePath": "/packages/telescope-search/i18n/es.i18n.json",
+      "path": "i18n/es.i18n.json"
+    },
+    {
+      "type": "asset",
+      "file": "os/packages/telescope-search/i18n/fr.i18n.json",
+      "length": 59,
+      "offset": 0,
+      "servePath": "/packages/telescope-search/i18n/fr.i18n.json",
+      "path": "i18n/fr.i18n.json"
+    },
+    {
+      "type": "asset",
+      "file": "os/packages/telescope-search/i18n/it.i18n.json",
+      "length": 56,
+      "offset": 0,
+      "servePath": "/packages/telescope-search/i18n/it.i18n.json",
+      "path": "i18n/it.i18n.json"
+    },
+    {
+      "type": "asset",
+      "file": "os/packages/telescope-search/i18n/zh-CN.i18n.json",
+      "length": 55,
+      "offset": 0,
+      "servePath": "/packages/telescope-search/i18n/zh-CN.i18n.json",
+      "path": "i18n/zh-CN.i18n.json"
+    },
+    {
+      "type": "prelink",
+      "file": "os/packages/telescope-search.js",
+      "length": 9227,
+      "offset": 0,
+      "servePath": "/packages/telescope-search.js",
+      "sourceMap": "os/packages/telescope-search.js.map"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "__"
+    },
+    {
+      "name": "translations"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "telescope-base"
+    },
+    {
+      "package": "telescope-lib"
+    },
+    {
+      "package": "telescope-settings"
+    },
+    {
+      "package": "fourseven:scss"
+    },
+    {
+      "package": "tap:i18n"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/telescope-tagline-banner.js",
+      "length": 4458,
+      "offset": 0,
+      "servePath": "/packages/telescope-tagline-banner.js",
+      "sourceMap": "os/packages/telescope-tagline-banner.js.map"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "jquery"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "templating"
+    },
+    {
+      "package": "fourseven:scss"
+    },
+    {
+      "package": "telescope-lib"
+    },
+    {
+      "package": "telescope-base"
+    }
+  ],
+  "resources": [
+    {
+      "type": "css",
+      "file": "web.browser/packages/telescope-module-share/lib/client/post_share.scss.css",
+      "length": 5912,
+      "offset": 0,
+      "servePath": "/packages/telescope-module-share/lib/client/post_share.scss.css"
+    },
+    {
+      "type": "prelink",
+      "file": "web.browser/packages/telescope-module-share.js",
+      "length": 12015,
+      "offset": 0,
+      "servePath": "/packages/telescope-module-share.js",
+      "sourceMap": "web.browser/packages/telescope-module-share.js.map"
+    }
+  ]
+}

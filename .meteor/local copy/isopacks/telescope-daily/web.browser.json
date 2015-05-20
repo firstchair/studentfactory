@@ -1,0 +1,88 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "PostsDailyController",
+      "export": true
+    },
+    {
+      "name": "__"
+    },
+    {
+      "name": "registerI18nTemplate"
+    },
+    {
+      "name": "registerTemplate"
+    },
+    {
+      "name": "non_package_templates"
+    },
+    {
+      "name": "daysPerPage"
+    },
+    {
+      "name": "i"
+    },
+    {
+      "name": "translations"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "telescope-lib"
+    },
+    {
+      "package": "telescope-base"
+    },
+    {
+      "package": "telescope-settings"
+    },
+    {
+      "package": "iron:router"
+    },
+    {
+      "package": "meteorhacks:fast-render"
+    },
+    {
+      "package": "meteorhacks:subs-manager"
+    },
+    {
+      "package": "tap:i18n"
+    },
+    {
+      "package": "telescope-singleday"
+    },
+    {
+      "package": "fourseven:scss"
+    },
+    {
+      "package": "jquery"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "templating"
+    }
+  ],
+  "resources": [
+    {
+      "type": "css",
+      "file": "web.browser/packages/telescope-daily/lib/client/stylesheets/daily.scss.css",
+      "length": 1242,
+      "offset": 0,
+      "servePath": "/packages/telescope-daily/lib/client/stylesheets/daily.scss.css"
+    },
+    {
+      "type": "prelink",
+      "file": "web.browser/packages/telescope-daily.js",
+      "length": 38644,
+      "offset": 0,
+      "servePath": "/packages/telescope-daily.js",
+      "sourceMap": "web.browser/packages/telescope-daily.js.map"
+    }
+  ]
+}

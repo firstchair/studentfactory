@@ -1,0 +1,91 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "deleteDummyContent",
+      "export": true
+    },
+    {
+      "name": "__"
+    },
+    {
+      "name": "parentComment"
+    },
+    {
+      "name": "translations"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "tap:i18n"
+    },
+    {
+      "package": "iron:router"
+    },
+    {
+      "package": "telescope-base"
+    },
+    {
+      "package": "telescope-lib"
+    },
+    {
+      "package": "telescope-i18n"
+    },
+    {
+      "package": "momentjs:moment"
+    }
+  ],
+  "resources": [
+    {
+      "type": "asset",
+      "file": "os/packages/telescope-getting-started/content/read_this_first.md",
+      "length": 1007,
+      "offset": 0,
+      "servePath": "/packages/telescope-getting-started/content/read_this_first.md",
+      "path": "content/read_this_first.md"
+    },
+    {
+      "type": "asset",
+      "file": "os/packages/telescope-getting-started/content/deploying_telescope.md",
+      "length": 977,
+      "offset": 0,
+      "servePath": "/packages/telescope-getting-started/content/deploying_telescope.md",
+      "path": "content/deploying_telescope.md"
+    },
+    {
+      "type": "asset",
+      "file": "os/packages/telescope-getting-started/content/customizing_telescope.md",
+      "length": 1030,
+      "offset": 0,
+      "servePath": "/packages/telescope-getting-started/content/customizing_telescope.md",
+      "path": "content/customizing_telescope.md"
+    },
+    {
+      "type": "asset",
+      "file": "os/packages/telescope-getting-started/content/getting_help.md",
+      "length": 586,
+      "offset": 0,
+      "servePath": "/packages/telescope-getting-started/content/getting_help.md",
+      "path": "content/getting_help.md"
+    },
+    {
+      "type": "asset",
+      "file": "os/packages/telescope-getting-started/content/removing_getting_started_posts.md",
+      "length": 453,
+      "offset": 0,
+      "servePath": "/packages/telescope-getting-started/content/removing_getting_started_posts.md",
+      "path": "content/removing_getting_started_posts.md"
+    },
+    {
+      "type": "prelink",
+      "file": "os/packages/telescope-getting-started.js",
+      "length": 23961,
+      "offset": 0,
+      "servePath": "/packages/telescope-getting-started.js",
+      "sourceMap": "os/packages/telescope-getting-started.js.map"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "preloadSubscriptions",
+      "export": true
+    },
+    {
+      "name": "adminMenu",
+      "export": true
+    },
+    {
+      "name": "Categories",
+      "export": true
+    },
+    {
+      "name": "addToPostSchema",
+      "export": true
+    },
+    {
+      "name": "primaryNav",
+      "export": true
+    },
+    {
+      "name": "postModules",
+      "export": true
+    },
+    {
+      "name": "getPostCategories",
+      "export": true
+    },
+    {
+      "name": "categorySchema"
+    },
+    {
+      "name": "getCategoryUrl"
+    },
+    {
+      "name": "__"
+    },
+    {
+      "name": "translations"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "telescope-lib"
+    },
+    {
+      "package": "telescope-base"
+    },
+    {
+      "package": "aldeed:simple-schema"
+    },
+    {
+      "package": "aldeed:autoform"
+    },
+    {
+      "package": "tap:i18n"
+    },
+    {
+      "package": "fourseven:scss"
+    },
+    {
+      "package": "matb33:collection-hooks"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/telescope-tags.js",
+      "length": 25744,
+      "offset": 0,
+      "servePath": "/packages/telescope-tags.js",
+      "sourceMap": "os/packages/telescope-tags.js.map"
+    }
+  ]
+}

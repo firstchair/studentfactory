@@ -1,0 +1,21 @@
+{
+  "isopack-1": {
+    "name": "telescope-settings",
+    "summary": "Telescope settings package",
+    "version": "0.0.0",
+    "isTest": false,
+    "builds": [
+      {
+        "kind": "main",
+        "arch": "os",
+        "path": "os.json"
+      },
+      {
+        "kind": "main",
+        "arch": "web.browser",
+        "path": "web.browser.json"
+      }
+    ],
+    "plugins": []
+  }
+}

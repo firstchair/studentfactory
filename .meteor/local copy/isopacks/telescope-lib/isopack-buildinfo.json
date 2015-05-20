@@ -1,0 +1,53 @@
+{
+  "builtBy": "meteor/16",
+  "unibuildDependencies": {
+    "os.json": {
+      "files": {
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/studentfactory/packages/telescope-lib/package.js": "608e0f0281a319db03a1dd4c8e11f1e5498feb27",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/studentfactory/packages/telescope-lib/lib/lib.js": "923cabe4bb8814a77d7f907f3ae26735d43bf38e",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/studentfactory/packages/telescope-lib/lib/deep.js": "c4a6d6726f731d7b45291943435c6f292bac4c68",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/studentfactory/packages/telescope-lib/lib/deep_extend.js": "d466c0548d8b384f72ca1af44faf5d491a981f8c",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/studentfactory/packages/telescope-lib/lib/autolink.js": "1bf0f6eee592ae61155fa05d09f313240b6f7653",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/studentfactory/packages/telescope-lib/lib/permissions.js": "4d00f8ef1ab9dcb5fd2688c6c3567f78f0e16e98"
+      },
+      "directories": []
+    },
+    "web.browser.json": {
+      "files": {
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/studentfactory/packages/telescope-lib/package.js": "608e0f0281a319db03a1dd4c8e11f1e5498feb27",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/studentfactory/packages/telescope-lib/lib/lib.js": "923cabe4bb8814a77d7f907f3ae26735d43bf38e",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/studentfactory/packages/telescope-lib/lib/deep.js": "c4a6d6726f731d7b45291943435c6f292bac4c68",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/studentfactory/packages/telescope-lib/lib/deep_extend.js": "d466c0548d8b384f72ca1af44faf5d491a981f8c",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/studentfactory/packages/telescope-lib/lib/autolink.js": "1bf0f6eee592ae61155fa05d09f313240b6f7653",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/studentfactory/packages/telescope-lib/lib/permissions.js": "4d00f8ef1ab9dcb5fd2688c6c3567f78f0e16e98",
+        "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/studentfactory/packages/telescope-lib/lib/client/jquery.exists.js": "0de9e72491e22b12e26a21c03eef18b2bd83f147"
+      },
+      "directories": []
+    }
+  },
+  "pluginDependencies": {
+    "files": {
+      "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/studentfactory/packages/telescope-lib/package.js": "608e0f0281a319db03a1dd4c8e11f1e5498feb27"
+    },
+    "directories": []
+  },
+  "pluginProviderPackageMap": {
+    "telescope-lib": {
+      "kind": "local",
+      "sourceRoot": "/Users/lukasfeitsma/Documents/Studie/CMD/Jaar2/Blok4/Project-X/studentfactory/packages/telescope-lib"
+    },
+    "meteor": {
+      "kind": "versioned",
+      "version": "1.1.6"
+    },
+    "underscore": {
+      "kind": "versioned",
+      "version": "1.0.3"
+    },
+    "jquery": {
+      "kind": "versioned",
+      "version": "1.11.3_2"
+    }
+  },
+  "includeCordovaUnibuild": false
+}

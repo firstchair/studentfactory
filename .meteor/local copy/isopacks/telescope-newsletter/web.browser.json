@@ -1,0 +1,91 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "resetNewsletterSchedule",
+      "export": true
+    },
+    {
+      "name": "__"
+    },
+    {
+      "name": "registerI18nTemplate"
+    },
+    {
+      "name": "registerTemplate"
+    },
+    {
+      "name": "non_package_templates"
+    },
+    {
+      "name": "campaignSchema"
+    },
+    {
+      "name": "Campaigns"
+    },
+    {
+      "name": "translations"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "telescope-lib"
+    },
+    {
+      "package": "telescope-base"
+    },
+    {
+      "package": "telescope-settings"
+    },
+    {
+      "package": "aldeed:simple-schema"
+    },
+    {
+      "package": "iron:router"
+    },
+    {
+      "package": "miro:mailchimp"
+    },
+    {
+      "package": "tap:i18n"
+    },
+    {
+      "package": "fourseven:scss"
+    },
+    {
+      "package": "jquery"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "templating"
+    },
+    {
+      "package": "telescope-messages"
+    },
+    {
+      "package": "mrt:cookies"
+    }
+  ],
+  "resources": [
+    {
+      "type": "css",
+      "file": "web.browser/packages/telescope-newsletter/lib/client/stylesheets/newsletter_banner.scss.css",
+      "length": 4312,
+      "offset": 0,
+      "servePath": "/packages/telescope-newsletter/lib/client/stylesheets/newsletter_banner.scss.css"
+    },
+    {
+      "type": "prelink",
+      "file": "web.browser/packages/telescope-newsletter.js",
+      "length": 60204,
+      "offset": 0,
+      "servePath": "/packages/telescope-newsletter.js",
+      "sourceMap": "web.browser/packages/telescope-newsletter.js.map"
+    }
+  ]
+}

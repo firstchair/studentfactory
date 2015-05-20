@@ -1,0 +1,45 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "__"
+    },
+    {
+      "name": "translations"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "templating"
+    },
+    {
+      "package": "telescope-lib"
+    },
+    {
+      "package": "telescope-base"
+    },
+    {
+      "package": "telescope-settings"
+    },
+    {
+      "package": "tap:i18n"
+    },
+    {
+      "package": "meteorhacks:kadira",
+      "constraint": "2.20.1"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/telescope-kadira.js",
+      "length": 9471,
+      "offset": 0,
+      "servePath": "/packages/telescope-kadira.js",
+      "sourceMap": "os/packages/telescope-kadira.js.map"
+    }
+  ]
+}

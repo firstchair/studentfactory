@@ -1,0 +1,66 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "__"
+    },
+    {
+      "name": "registerI18nTemplate"
+    },
+    {
+      "name": "registerTemplate"
+    },
+    {
+      "name": "non_package_templates"
+    },
+    {
+      "name": "translations"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "telescope-base"
+    },
+    {
+      "package": "telescope-lib"
+    },
+    {
+      "package": "telescope-settings"
+    },
+    {
+      "package": "fourseven:scss"
+    },
+    {
+      "package": "tap:i18n"
+    },
+    {
+      "package": "jquery"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "templating"
+    }
+  ],
+  "resources": [
+    {
+      "type": "css",
+      "file": "web.browser/packages/telescope-tagline-banner/lib/client/stylesheets/tagline_banner.scss.css",
+      "length": 894,
+      "offset": 0,
+      "servePath": "/packages/telescope-tagline-banner/lib/client/stylesheets/tagline_banner.scss.css"
+    },
+    {
+      "type": "prelink",
+      "file": "web.browser/packages/telescope-tagline-banner.js",
+      "length": 9836,
+      "offset": 0,
+      "servePath": "/packages/telescope-tagline-banner.js",
+      "sourceMap": "web.browser/packages/telescope-tagline-banner.js.map"
+    }
+  ]
+}

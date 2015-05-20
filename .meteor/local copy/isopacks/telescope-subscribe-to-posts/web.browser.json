@@ -1,0 +1,83 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "subscribeItem",
+      "export": true
+    },
+    {
+      "name": "unsubscribeItem",
+      "export": true
+    },
+    {
+      "name": "__"
+    },
+    {
+      "name": "registerI18nTemplate"
+    },
+    {
+      "name": "registerTemplate"
+    },
+    {
+      "name": "non_package_templates"
+    },
+    {
+      "name": "translations"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "tap:i18n"
+    },
+    {
+      "package": "iron:router"
+    },
+    {
+      "package": "telescope-base"
+    },
+    {
+      "package": "telescope-lib"
+    },
+    {
+      "package": "telescope-i18n"
+    },
+    {
+      "package": "fourseven:scss"
+    },
+    {
+      "package": "telescope-notifications"
+    },
+    {
+      "package": "jquery"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "templating"
+    },
+    {
+      "package": "telescope-messages"
+    }
+  ],
+  "resources": [
+    {
+      "type": "css",
+      "file": "web.browser/packages/telescope-subscribe-to-posts/lib/client/stylesheets/subscribe-to-posts.scss.css",
+      "length": 174,
+      "offset": 0,
+      "servePath": "/packages/telescope-subscribe-to-posts/lib/client/stylesheets/subscribe-to-posts.scss.css"
+    },
+    {
+      "type": "prelink",
+      "file": "web.browser/packages/telescope-subscribe-to-posts.js",
+      "length": 44424,
+      "offset": 0,
+      "servePath": "/packages/telescope-subscribe-to-posts.js",
+      "sourceMap": "web.browser/packages/telescope-subscribe-to-posts.js.map"
+    }
+  ]
+}

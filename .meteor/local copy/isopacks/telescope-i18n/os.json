@@ -1,0 +1,31 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "i18n",
+      "export": true
+    },
+    {
+      "name": "setLanguage",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "tap:i18n"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/telescope-i18n.js",
+      "length": 5862,
+      "offset": 0,
+      "servePath": "/packages/telescope-i18n.js",
+      "sourceMap": "os/packages/telescope-i18n.js.map"
+    }
+  ]
+}

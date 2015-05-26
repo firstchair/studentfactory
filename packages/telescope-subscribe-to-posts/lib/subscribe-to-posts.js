@@ -76,7 +76,7 @@ var removeSubscribedItem = function (userId, itemId, collection) {
 subscribeItem = function (collection, itemId, user) {
   var item = collection.findOne(itemId),
       collectionName = collection._name.slice(0,1).toUpperCase() + collection._name.slice(1);
-      
+
   if (!user || !item || hasSubscribedItem(item, user))
     return false;
 

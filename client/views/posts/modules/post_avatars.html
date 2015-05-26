@@ -1,4 +1,8 @@
 <template name="postAvatars">
+  <div class="datums">
+    <i class="fa fa-clock-o"></i> <span class="startdatum">Start: {{formatDate start "DD.MM.YYYY"}}</span>
+    <span class="einddatum">Eind: {{formatDate end "DD.MM.YYYY"}}</span>
+    </div>
   <div aria-hidden="true" aria-live="off">
      <a href="{{profileUrl userId}}" class="avatar-link avatar-small author-avatar">
       {{> avatar userId=userId shape="circle"}}
@@ -13,8 +17,4 @@
       </div>
     {{/if}}
   </div>
-  <div class="datums">
-   <span class="startdatum"><i class="fa fa-clock-o"></i> Start datum: {{formatDate start "DD.MM.YYYY"}}</span>
-    <span class="einddatum"><i class="fa fa-clock-o"></i> Eind datum: {{formatDate end "DD.MM.YYYY"}}</span>
-    </div>
 </template>

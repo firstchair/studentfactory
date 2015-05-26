@@ -6,14 +6,16 @@
           {{> avatar userId=this shape="circle"}}
         </a>
         <a class="post-author" href="{{profileUrl userId}}">{{displayName userId}}</a>
-        <ul>
-         	<li><i class="fa fa-facebook"></i></li>
-	<li><i class="fa fa-linkedin"></i> Admin</li>
-	<li><i class="fa fa-google-plus"></i> Admin</li>
-	<li><i class="fa fa-envelope-o"></i> {{email}}</li>
-	<li><i class="fa fa-mobile"></i> 0612345678</li>
-	  </ul>
 
+        
+<i class="fa fa-facebook"></i>
+<i class="fa fa-linkedin"></i>
+<i class="fa fa-google-plus"></i>
+<i class="fa fa-envelope-o"></i>
+<i class="fa fa-mobile"></i>
+
+
+	  </div>
 
 	{{#if isLoggedIn}}
   <a class="comment-submit-button btn btn-primary btn-submit" href="mailto:{{email}}?subject=Project aanmelding&body=Deze aanvraag is verzonden via de CMD Klussenbank&cc={{ProjectEmail}}

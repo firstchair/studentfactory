@@ -34,6 +34,23 @@ postSchemaObject = {
   //     type: "bootstrap-url"
   //   }
   // },
+  opdrachtgever: {
+    type: String,
+    optional: false,
+    autoform: {
+      editable: true
+    }
+  },
+  bedrijfsbeschrijving: {
+    type: String,
+    optional: false,
+    label: "Korte beschrijving van het bedrijf of opdrachtgever",
+    max: 250,
+    autoform: {
+      type: "textarea",
+      editable: true
+    }
+  },
   title: {
     type: String,
     optional: false,
@@ -85,6 +102,30 @@ postSchemaObject = {
     autoform: {
       type: "date",
       class: "date-form",
+      editable: true
+    }
+  },
+  linkedin: {
+    type: String,
+    optional: false,
+    label: "Linkedin",
+    autoform: {
+      editable: true
+    }
+  },
+  facebook: {
+    type: String,
+    optional: false,
+    label: "Facebook",
+    autoform: {
+      editable: true
+    }
+  },
+  googleplus: {
+    type: String,
+    optional: false,
+    label: "Google Plus",
+    autoform: {
       editable: true
     }
   },
